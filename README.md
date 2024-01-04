@@ -74,13 +74,16 @@ BSD License
 jeesmon@gmail.com  
 BSD License
 
-2. Haxe implementation by Jason O'Neil  
+3. Haxe implementation by Jason O'Neil  
 https://github.com/jasononeil/PBKDF2-Haxe  
 BSD license
 
-3. The PHP implementation was derived from:  
+4. The PHP implementation was derived from:  
 https://defuse.ca/php-pbkdf2.htm havoc AT defuse.ca  
 Released under Public Domain.  Haxe translation by Jason O'Neil.
+
+5. Library modified for Haxe 4 compatibility by _postite_,  
+repackaged by _j-jzk_ (original repository was unmaintained).
 
 See the LICENSE.txt file for the full license.
 
