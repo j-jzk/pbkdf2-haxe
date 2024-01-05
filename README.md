@@ -5,18 +5,18 @@ PBKDF2 (Password-Based Key Derivation Function 2) is a key derivation function t
 
 Basically, it lets you do a hash similar to MD5 or SHA1, but with a salt, and it can repeat thousands of times to make it harder to crack - the longer it takes to generate the key the longer it will take to crack.  Anyway, it is a good way to store user passwords.  Even big frameworks like Django use it by default.
 
+This is the version updated for Haxe 4.0 (throws no _deprecated_ warnings on PHP); the [original repository](https://github.com/jasononeil/PBKDF2-Haxe/) is unmaintained.
+
 Installation
 ------------
 
-To install on haxelib:
+To install:
 
-	haxelib install pbkdf2
+	haxelib git pbkdf2 https://github.com/j-jzk/pbkdf2-haxe.git
 
 And then in your project's hxml build file, add
 
-    -lib pbkdf2
-
-To install from the latest GIT, or from a fork:    
+    --lib pbkdf2
 
 Usage
 -----
